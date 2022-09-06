@@ -15,6 +15,5 @@ submitBtn.addEventListener('click', () => {
 rates.forEach(rate => {
 	rate.addEventListener('click', () => {
 		rating.innerHTML = rate.innerHTML;
-		rates.style.backgroundColor = 'red';
 	});
 });
