@@ -3,8 +3,16 @@
     --color-white: hsl(0, 0%, 100%);
     --color-light-grey: hsl(217, 12%, 63%);
     --color-medium-grey: hsl(216, 12%, 54%);
-    --color-dark-blue: hsl(213, 19%, 18%);
-    --color-very-dark-blue: hsl(216, 12%, 8%);
+    --color-dark-blue: #252d37;
+    --color-very-dark-blue: #121417;
+}
+
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 html {
@@ -15,4 +23,70 @@ html {
 body {
     font-size: 1.5rem;
     background-color: var(--color-very-dark-blue);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    height: fit-content;
+    width: 85%;
+    max-width: 400px;
+    background: rgb(37,45,55);
+    background: linear-gradient(180deg, rgba(37,45,55,1) 0%, rgb(22, 25, 30) 80%);
+    border-radius: 20px;
+    padding: 3rem;
+}
+
+.item-container {
+    height: 50px;
+    width: 50px;
+    background-color: #2f3a45;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+    border-radius: 50px;
+}
+
+#star {
+    position: relative;
+    left: 1px;
+}
+
+.heading {
+    color: var(--color-white);
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+
+.tagline {
+    color: var(--color-light-grey);
+    line-height: 1.5;
+    margin-bottom: 2rem;
+}
+
+/* Rating Container */
+.rating-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+span {
+    color: var(--color-light-grey);
+}
+
+button {
+    margin-top: 1rem;
+    padding: 2rem 3rem;
+    width: 100%;
+    color: var(--color-white);
+    background-color: var(--color-primary);
+    outline: none;
+    border: none;
+    border-radius: 30px;
+    text-transform: uppercase;
+    letter-spacing: 0.4rem;
 }
