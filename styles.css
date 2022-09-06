@@ -80,8 +80,22 @@ body {
     cursor: pointer;
 }
 
-.rating-container .item-container:hover {
+
+.rating-btn {
+    border: none;
+    height: 50px;
+    width: 50px;
+    background-color: #2f3a45;
+    margin-bottom: 2rem;
+    border-radius: 50px;
+    color: var(--color-light-grey);
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.rating-btn:hover {
     background-color: var(--color-primary);
+    color: var(--color-white);
 }
 
 .submit {
@@ -97,6 +111,7 @@ body {
     padding: 1.8rem 2rem;
     text-transform: uppercase;
     width: 100%;
+    transition: 0.4s;
 }
 
 .submit:hover {
@@ -111,7 +126,7 @@ body {
 /* Toggle display to flex --> None */
 
 .thankyou-container {
-    display: none; 
+    display: flex; 
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -125,7 +140,6 @@ body {
 }
 
 .selection-container {
-    background-color: #2f3a45;
     padding: 1rem 2rem;
     border-radius: 30px;
     margin: 1rem 0 3rem 0
@@ -147,6 +161,10 @@ body {
     line-height: 1.5;
 }
 
+.hidden {
+    display: none;
+}
+
 /* Attribution */
 .attribution { 
     font-size: 11px;
@@ -157,4 +175,8 @@ body {
 }
 .attribution a {
      color: hsl(228, 45%, 44%);
+}
+
+li {
+    list-style: none ;
 }
