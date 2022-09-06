@@ -18,7 +18,7 @@
 		<title>Frontend Mentor | Interactive Rating</title>
 	</head>
 	<body>
-		<div class="container">
+		<div class="main-container">
 			<div class="item-container">
 				<img id="star" src="images/icon-star.svg" alt="" srcset="" />
 			</div>
@@ -30,24 +30,30 @@
 			</p>
 
 			<div class="rating-container">
-				<div class="item-container">
-					<span>1</span>
-				</div>
-				<div class="item-container">
-					<span>2</span>
-				</div>
-				<div class="item-container">
-					<span>3</span>
-				</div>
-				<div class="item-container">
-					<span>4</span>
-				</div>
-				<div class="item-container">
-					<span>5</span>
-				</div>
+				<div class="item-container">1</div>
+				<div class="item-container">2</div>
+				<div class="item-container">3</div>
+				<div class="item-container">4</div>
+				<div class="item-container">5</div>
 			</div>
 
-			<button type="submit">submit</button>
+			<button class="submit" type="submit">submit</button>
+		</div>
+
+		<div class="thankyou-container">
+			<img src="images/illustration-thank-you.svg" alt="" srcset="" />
+			<div class="selection-container">
+				<div class="selection-text">
+					You selected
+					<!-- rating -->
+					out of 5
+				</div>
+			</div>
+			<h2 class="thankyou-heading">Thank you!</h2>
+			<p class="thankyou-tagline">
+				We appreciate you taking the time to give a rating. If you ever need more support, don't
+				hesitate to get in touch!
+			</p>
 		</div>
 	</body>
 </html>
