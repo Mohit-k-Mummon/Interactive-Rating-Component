@@ -1,0 +1,22 @@
+{
+  "name": "interactive-rating-component",
+  "version": "1.0.0",
+  "description": "![Design preview for the Interactive rating component coding challenge](./design/desktop-preview.jpg)",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mohit-k-Mummon/Interactive-Rating-Component.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mohit-k-Mummon/Interactive-Rating-Component/issues"
+  },
+  "homepage": "https://github.com/Mohit-k-Mummon/Interactive-Rating-Component#readme",
+  "devDependencies": {
+    "parcel": "^2.7.0"
+  }
+}
