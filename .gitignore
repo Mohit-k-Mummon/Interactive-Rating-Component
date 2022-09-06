@@ -21,4 +21,4 @@
 /node_modules
 /dist
 /.parcel-cache
-/package-lock.js
+/package-lock.json
